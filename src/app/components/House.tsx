@@ -28,28 +28,28 @@ const Property = () => {
     <div className="flex justify-center items-center h-screen">
       {data.map((property) => (
         <div
-          key={property.id}
+          key=""
           className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           
             
               <Link href="#" >
                 <Image  
                   className="rounded-t-lg"
-                  src={property.pictureUrl[1]}
-                  alt={property.title}
+                  src=""
+                  alt=""
                   width={500}
                   height={500}
                 />
               </Link>
               
-          <div class="p-5">
+          <div className="p-5">
             <Link href="#">
               <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noteworthy technology acquisitions 2021
               </p>
             </Link>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              {property.description.substring(0, 200)}
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              ""
             </p>
             {/* <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read more
