@@ -58,7 +58,7 @@ export default function House() {
                 </p>
               </a>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                hello there
+              {property.description}
               </p>
 
             </div>
