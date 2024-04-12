@@ -1,6 +1,6 @@
  export interface Houses {
     id: string;
-    PictureUrl: string[];
+    pictureUrl: string[];
     title: string;
     description: string;
     price:number;
