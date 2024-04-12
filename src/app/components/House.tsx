@@ -45,7 +45,7 @@ export default function House() {
           <Link href="#">
             <Image
               className="rounded-t-lg"
-              src={property.pictureUrl[1]}
+              src={property.pictureUrl[0]}
               alt={property.title}
               width={500}
               height={500}
