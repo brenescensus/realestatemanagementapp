@@ -3,6 +3,7 @@
     PictureUrl: any;
     title: string;
     description: string;
+    price:number;
   } 
 
   export interface User {

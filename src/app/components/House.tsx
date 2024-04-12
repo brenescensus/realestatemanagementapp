@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import {Houses} from "@/components/interface/house";
+import  { Houses } from "@/components/interface/houses";
 import Image from "next/image";
 import Link from "next/link";
 

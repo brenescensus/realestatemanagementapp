@@ -18,10 +18,7 @@ interface UploadedAssetData {
   id: string;
 }
 
-export async  function PostHouse(){
 
-
-}
 export default function Post(){
   const [result, setResult] = useState<UploadedAssetData | null>(null);
   const router = useRouter();
