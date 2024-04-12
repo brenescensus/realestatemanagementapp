@@ -1,9 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import  { Houses } from "@/components/interface/houses";
 import Image from "next/image";
 import Link from "next/link";
-
+import { Houses } from "./interface/houses";
 // interface Property {
 //   id: string;
 //   PictureUrl: any;
